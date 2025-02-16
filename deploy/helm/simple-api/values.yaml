@@ -1,0 +1,8 @@
+imageRepository: mubbyrex/simple-api
+imageTag: latest
+imagePullPolicy: IfNotPresent
+appName: simple-api
+appReplicas: 1
+containerPort: 5000
+serviceType: ClusterIP
+servicePort: 8000

@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  app:
+    build:
+      context: ../..
+      dockerfile: deploy/docker/Dockerfile
+    restart: always
+    ports:
+      - "8000:5000"
